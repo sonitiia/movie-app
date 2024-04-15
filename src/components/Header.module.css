@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  background-color: var(--color-background-container);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.navBar {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.childrenWrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

@@ -1,0 +1,51 @@
+.movieItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-text);
+  max-width: 320px;
+  padding: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.movieItemTitle {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.movieItemImage {
+  width: 100%;
+  height: max-content;
+}
+
+.movieItemDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  padding: 0px 4px;
+}
+
+.deleteButton {
+  background-color: var(--color-background-container);
+  color: var(--color-text);
+  border-radius: 0;
+  width: fit-content;
+}
+
+.likeButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 8px;
+  color: var(--color-text);
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

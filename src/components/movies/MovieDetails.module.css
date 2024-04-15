@@ -1,0 +1,47 @@
+.movieDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 48px;
+  flex: 1;
+  margin-top: 4%;
+}
+
+.movieDetailsImageWrapper {
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.movieDetailsImageWrapper img {
+  width: 100%;
+}
+
+.movieDetails {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.flexRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.likeButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 8px;
+}
+
+.notLiked {
+  font-size: 1.14rem;
+  color: var(--color-text);
+}

@@ -1,0 +1,65 @@
+:root {
+  --color-primary: #000000;
+  --color-primary-accent: #94ddf9;
+  --color-text: #ffffff;
+  --color-text-dark: #000000;
+  --color-background-light: #424242;
+  --color-background-default: #191919;
+  --color-background-container: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 90%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background-default);
+}
+
+input,
+textarea {
+  justify-self: center;
+  border: none;
+  height: 64px;
+  padding: 12px 20px;
+  border-radius: 0.7rem;
+  transition: all 0.3s;
+  color: var(--color-text);
+  background-color: var(--color-background-default);
+  width: 100%;
+}
+
+input,
+textarea::placeholder {
+  color: var(--color-text);
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: var(--color-primary-accent);
+  color: var(--color-text-dark);
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
